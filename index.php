@@ -29,6 +29,7 @@ html{
   position: relative;
   border: 0cm;
 }
+    
 .maina{
   text-shadow: 2px 2px #ff0000;
   text-decoration-color: aqua;
