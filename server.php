@@ -2,7 +2,7 @@
 if ($_SERVER['REQUEST_METHOD'] == 'POST') 
 {
  
-  echo explode('.',$_FILES['my_upload']['name'])[1] ;
+  echo $_FILES['my_upload']['name']." ";
   if (is_uploaded_file($_FILES['my_upload']['tmp_name'])) 
   { 
   	if(empty($_FILES['my_upload']['name']))
